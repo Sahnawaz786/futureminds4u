@@ -28,7 +28,7 @@ const Navbar = () => {
       </div>
       <div className={styles.navbarnextContainer}>
         <div>
-          <img className={styles.ashokLogo} src="/images/logo.png" alt="" />
+          <img className={styles.ashokLogo} src="/images/reallogo.jpeg" alt="" />
         </div>
 
         <div className={styles.logo}>

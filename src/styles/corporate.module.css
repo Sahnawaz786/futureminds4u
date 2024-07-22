@@ -47,11 +47,20 @@
     border-radius: 20px 0px;
     border: none;
     width: 23vw;
-    height: 13vh;
+    /* height: 13vh; */
+    padding: 1.4rem;
+    transition: 0.2s;
+
     
 }
 
-.corporateImg:hover{
+.cardBox:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+/* .corporateImg:hover{
     cursor: pointer;
     transform: scale(1.1);
     transition: 0.2s;
@@ -61,6 +70,87 @@
     cursor: pointer;
     transform: scale(1.1);
     transition: 0.2s;
+} */
+
+.hoverCorporateLinks{
+    transition: 0.2s;
+}
+
+.hoverCorporateLinks :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
 }
 
 
+/* training features section  */
+
+.traineContainer{
+    margin-top: 4rem;
+    background-image: url('../../public/images/go-ahed-bg.png');
+    background-size: cover;
+   
+}
+
+.trainingFeature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    gap: 1.7rem;
+}
+
+.trainingDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 7px;
+    /* align-items: center; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.trainingContainer{
+    /* border: 1px solid red; */
+    width: 40vw;
+    display: flex;
+    gap: 10px;
+    border: none;
+
+}
+
+.trainingContainer img{
+    width: 12vw;
+    transition: 0.2s;
+    
+}
+
+.traineContainer img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.traineHeader{
+    font-size: 20px;
+    font-weight: bold;
+    font-family:inherit;
+}
+
+.traineHeader:hover{
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.ConTraneHeader{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: inherit;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+
+/* Testimonails  */

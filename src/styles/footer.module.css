@@ -1,0 +1,58 @@
+.fotterContainer{
+    display: flex;
+    background-color: #002147;
+    background-size: cover;
+    gap: 2rem;
+    margin-top: 4rem;
+    height: 60vh;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    color: white;
+    padding: 3rem;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.container1 img{
+    width: 14vw;
+}
+
+.fotterContainer span{
+    inline-size: 200px;
+  overflow-wrap: break-word;
+}
+
+.fotterContainer h3{
+    color: red;
+    font-size: 18px;
+
+}
+
+.container2{
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
