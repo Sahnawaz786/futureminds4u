@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.cards{
+    display: flex;
+    margin: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+
+.headerTitle{
+    font-size: 30px;
+    text-align: center;
+}
+
+.subTitle{
+    font-size: 16px;
+    text-align: center;
+}
+
+.corporateImg{
+    width: 40px;
+    height: 40px;
+    transition: 0.2s;
+}
+
+.cardBox span{
+    transition: 0.2s;
+}
+
+.cardBox{
+    padding: 10px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0px;
+    border: none;
+    width: 23vw;
+    height: 13vh;
+    
+}
+
+.corporateImg:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.cardBox span:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+
