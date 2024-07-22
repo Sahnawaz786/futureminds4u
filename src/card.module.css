@@ -20,14 +20,13 @@
     margin-right: 15px;
 }
 
+.box{
+  transition: 0.2s;
+  background-color: whitesmoke;
+}
+
 .box:hover {
   cursor: pointer;
   transform: scale(1.1);
   transition: 0.2s;
-}
-
-.box{
-  transition: 0.2s;
-
-
 }

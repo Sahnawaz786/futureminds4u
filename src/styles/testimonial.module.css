@@ -1,0 +1,52 @@
+.testimonialContainer{
+    margin-top: 5rem;
+}
+
+.testmonialHeader{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: inherit;
+    margin-bottom: 3rem;
+}
+.cardsContainer{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.testmonialCards{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border: none;
+    width: 25vw;
+    display: flex;
+    padding: 1rem;
+    transition: 0.2s;
+
+}
+
+.testmonialCards:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+.userDesc{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    gap: 2px;
+}
+
+.userName{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: inherit;
+}
