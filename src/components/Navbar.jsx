@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import styles from "../styles.module.css";
 import { ImUnlocked } from "react-icons/im";
 import { FaWhatsapp } from "react-icons/fa";
@@ -7,8 +7,10 @@ import { FaYoutube } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaAngleDown } from "react-icons/fa";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Navbar = () => {
+  const [show,setShow] = useState("none");
   return (
     <>
       <div className={styles.navbarContainer}>
@@ -29,6 +31,10 @@ const Navbar = () => {
       <div className={styles.navbarnextContainer}>
         <div>
           <img className={styles.ashokLogo} src="/images/reallogo.jpeg" alt="" />
+        </div>
+
+        <div className={styles.hamburger}>
+           <GiHamburgerMenu size={30} onClick={()=>show==='none' ? setShow('block') : setShow('none')} />
         </div>
 
         <div className={styles.logo}>
@@ -108,6 +114,18 @@ const Navbar = () => {
         </div>
 
 
+      </div>
+
+      <div style={{display:`${show}`}} className={styles.hamburgerContainer}>
+        <ul>
+          <li>Home</li>
+          <li>Services</li>
+          <li>Course Offering</li>
+          <li>Training Schedules</li>
+          <li>Careers</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
       </div>
     </>
   );

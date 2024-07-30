@@ -1,63 +1,60 @@
-.container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin: 1rem;
-    gap: 2rem;
-    margin-top: 3rem;
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 1rem;
+  gap: 2rem;
+  margin-top: 3rem;
 }
 
-.cards{
-    display: flex;
-    margin: 2rem;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+.cards {
+  display: flex;
+  margin: 2rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
 }
 
-
-.headerTitle{
-    font-size: 30px;
-    text-align: center;
+.headerTitle {
+  font-size: 30px;
+  text-align: center;
 }
 
-.subTitle{
-    font-size: 16px;
-    text-align: center;
+.subTitle {
+  font-size: 16px;
+  text-align: center;
 }
 
-.corporateImg{
-    width: 40px;
-    height: 40px;
-    transition: 0.2s;
+.corporateImg {
+  width: 40px;
+  height: 40px;
+  transition: 0.2s;
 }
 
-.cardBox span{
-    transition: 0.2s;
+.cardBox span {
+  transition: 0.2s;
 }
 
-.cardBox{
-    padding: 10px;
-    display: flex;
-    gap: 1rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px 0px;
-    border: none;
-    width: 23vw;
-    /* height: 13vh; */
-    padding: 1.4rem;
-    transition: 0.2s;
-
-    
+.cardBox {
+  padding: 10px;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px 0px;
+  border: none;
+  width: 23vw;
+  /* height: 13vh; */
+  padding: 1.4rem;
+  transition: 0.2s;
 }
 
-.cardBox:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.2s;
+.cardBox:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s;
 }
 
 /* .corporateImg:hover{
@@ -72,85 +69,115 @@
     transition: 0.2s;
 } */
 
-.hoverCorporateLinks{
-    transition: 0.2s;
+.hoverCorporateLinks {
+  transition: 0.2s;
 }
 
-.hoverCorporateLinks :hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.2s;
+.hoverCorporateLinks :hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s;
 }
-
 
 /* training features section  */
 
-.traineContainer{
-    margin-top: 4rem;
-    background-image: url('../../public/images/go-ahed-bg.png');
-    background-size: cover;
-   
+.traineContainer {
+  margin-top: 4rem;
+  background-image: url("../../public/images/go-ahed-bg.png");
+  background-size: cover;
+  background-repeat: repeat;
 }
 
-.trainingFeature{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-left: 1rem;
-    margin-right: 1rem;
-    gap: 1.7rem;
+.trainingFeature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  gap: 1.7rem;
 }
 
-.trainingDetails{
+.trainingDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 7px;
+  /* align-items: center; */
+}
+
+.trainingContainer {
+  /* border: 1px solid red; */
+  width: 40vw;
+  display: flex;
+  gap: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.trainingContainer img {
+  width: 12vw;
+  transition: 0.2s;
+}
+
+.traineContainer img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.traineHeader {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: inherit;
+}
+
+.traineHeader:hover {
+  color: red;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ConTraneHeader {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: inherit;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .cards {
     display: flex;
     flex-direction: column;
-    gap: 5px;
-    padding: 7px;
-    /* align-items: center; */
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
+  }
+  .cardBox {
+    width: 70vw;
+  }
+  .trainingFeature {
+    flex-direction: column;
+  }
 
-.trainingContainer{
-    /* border: 1px solid red; */
-    width: 40vw;
-    display: flex;
-    gap: 10px;
-    border: none;
+  .trainingContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-}
-
-.trainingContainer img{
-    width: 12vw;
-    transition: 0.2s;
-    
-}
-
-.traineContainer img:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: 0.2s;
-}
-
-.traineHeader{
-    font-size: 20px;
-    font-weight: bold;
-    font-family:inherit;
-}
-
-.traineHeader:hover{
-    color: red;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-.ConTraneHeader{
-    font-size: 25px;
-    font-weight: bold;
-    font-family: inherit;
+  .trainingContainer img {
+    height: 30vh;
+    width: 60vw;
     text-align: center;
-    margin-bottom: 3rem;
+    margin-top: 10px;
+  }
+
+  .trainingContainer {
+    width: 70vw;
+  }
+
+  .trainingDetails {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
 }
-
-
-/* Testimonails  */

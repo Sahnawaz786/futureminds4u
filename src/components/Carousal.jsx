@@ -8,15 +8,15 @@ const Carousal = () => {
     <div>
       <Carousel>
         <Carousel.Item>
-          <ExampleCarouselImage text="First slide" />
+          <ExampleCarouselImage  />
          
         </Carousel.Item>
         <Carousel.Item>
-          <ExampleCarouselImage text="Second slide" />
+          <ExampleCarouselImage  />
           
         </Carousel.Item>
         <Carousel.Item>
-          <ExampleCarouselImage text="Third slide" />
+          <ExampleCarouselImage  />
          
         </Carousel.Item>
       </Carousel>
