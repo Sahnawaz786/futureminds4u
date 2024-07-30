@@ -4,11 +4,13 @@
     background-size: cover;
     gap: 2rem;
     margin-top: 4rem;
-    height: 60vh;
+    /* height: 100vh; */
     padding-left: 2rem;
     padding-right: 1rem;
     color: white;
     padding: 3rem;
+    /* width: 100vw; */
+    /* flex-wrap: wrap; */
 }
 
 .container1{
@@ -56,3 +58,14 @@
     flex-direction: column;
     gap: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .fotterContainer{
+       display: flex;
+       flex-direction: column;
+    }
+    .container1 img{
+        width: 30vw;
+    }
+    
+   }
